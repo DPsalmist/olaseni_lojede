@@ -56,6 +56,23 @@
   color: #555;
 }
 
+/* Professional Bodies */
+.responsive-img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .responsive-img {
+    height: 8rem; /* Adjust height for smaller screens */
+    width: 8rem; /* Adjust width for smaller screens */
+  }
+}
+
 
 
 
